@@ -16,16 +16,6 @@
     align-items: center;
 }
 
-#navbarNav{
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-fluid{
-    display: flex;
-    justify-content: space-between;
-}
-
 .footer{
     height: 200px;
     width: 100%;
