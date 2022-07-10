@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Righteous', cursive;
+}
 .barraNavegacion{
     background-color: orange;
     font-weight: bold;
@@ -31,4 +35,18 @@
 #tituloGaleria{
     color: orange;
 
+}
+/* quienes somos */
+
+#quienessomos img{
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 5px 20px;
+    align-items: center;
+}
+
+.row p{
+    text-align: left;
+    padding: 20px 0px 0px 10px;
 }
