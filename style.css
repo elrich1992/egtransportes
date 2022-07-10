@@ -21,3 +21,14 @@
     width: 100%;
     background-color: orange;
 }
+/* galeria */
+
+#galeria img{
+    width: 100%;
+    height: 450px;
+}
+
+#tituloGaleria{
+    color: orange;
+
+}
