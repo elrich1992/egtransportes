@@ -20,15 +20,16 @@ font-family: 'Righteous', cursive;
     align-items: center;
 }
 
+
+#mapa{
+    margin: 15px auto;
+}
+
 #boxIndex h2{
     color:orange;
 }
 
-.footer{
-    height: 200px;
-    width: 100%;
-    background-color: orange;
-}
+
 /* galeria */
 
 #galeria img{
@@ -46,7 +47,7 @@ font-family: 'Righteous', cursive;
     width: 200px;
     height: 300px;
     border-radius: 50%;
-    margin: 5px 20px;
+     margin: 5px 50px;
     align-items: center;
 }
 
@@ -60,6 +61,10 @@ font-family: 'Righteous', cursive;
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
 
 /* animaciones y transiciones */
 .nav-link:hover{
