@@ -106,4 +106,25 @@ font-family: 'Righteous', cursive;
     }
     
 
+}
+
+#logo{
+        width: 70px;
+        height: 90px;
+        animation-name: camioneta;
+        animation-duration:10s;
+        animation-delay: 1s;
+        position: relative;
+        animation-timing-function:ease ;
+}
+
+@keyframes camioneta {
+    0%{
+        left:0px ; top:0px ;
     }
+    100%{
+        left: 100%; top: 0px;
+    }
+
+
+}
