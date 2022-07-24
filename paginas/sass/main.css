@@ -1,0 +1,100 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Righteous", cursive;
+}
+
+.barraNavegacion {
+  background-color: orange;
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 450px;
+}
+
+#tituloGaleria {
+  color: orange;
+}
+
+#quienessomos img {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 5px 50px;
+  align-items: center;
+}
+
+.row p {
+  text-align: left;
+  padding: 20px 0px 0px 10px;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  transition: all 2s, color 2s;
+}
+
+.col-lg-4 img:hover {
+  transform: scale(1.2);
+  transition: all 2s;
+}
+
+.contenedorIndex {
+  width: 60%;
+  height: 400px;
+  margin: 15px auto;
+  background-image: url(./fotos/niñoseneltransporte.jpg);
+  background-size: cover;
+  -webkit-animation: carrousel 10s infinite;
+          animation: carrousel 10s infinite;
+}
+
+@-webkit-keyframes carrousel {
+  0% {
+    background-image: url(./fotos/niñoseneltransporte.jpg);
+  }
+  25% {
+    background-image: url(./fotos/niñoseneltransporte2.jpg);
+  }
+  50% {
+    background-image: url(./fotos/niñoseneltransporte3.jpg);
+  }
+  75% {
+    background-image: url(./fotos/escuela.jpg);
+  }
+  100% {
+    background-image: url(./fotos/santamargarita.jpg);
+  }
+}
+
+@keyframes carrousel {
+  0% {
+    background-image: url(./fotos/niñoseneltransporte.jpg);
+  }
+  25% {
+    background-image: url(./fotos/niñoseneltransporte2.jpg);
+  }
+  50% {
+    background-image: url(./fotos/niñoseneltransporte3.jpg);
+  }
+  75% {
+    background-image: url(./fotos/escuela.jpg);
+  }
+  100% {
+    background-image: url(./fotos/santamargarita.jpg);
+  }
+}/*# sourceMappingURL=main.css.map */

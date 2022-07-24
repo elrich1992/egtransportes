@@ -1,0 +1,40 @@
+.nav-link:hover{
+    transform: scale(1.2);
+    transition: all 2s , color 2s;
+   
+
+}
+
+.col-lg-4 img:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.contenedorIndex{
+    width: 60%;
+    height: 400px;
+    margin: 15px auto;
+    background-image: url(./fotos/niñoseneltransporte.jpg);
+    background-size: cover;
+    animation: carrousel 10s infinite;
+}
+
+@keyframes carrousel{
+    0%{
+        background-image: url(./fotos/niñoseneltransporte.jpg);
+    }
+    25%{
+        background-image: url(./fotos/niñoseneltransporte2.jpg);
+    }
+    50%{
+        background-image: url(./fotos/niñoseneltransporte3.jpg);
+    }
+    75%{
+        background-image: url(./fotos/escuela.jpg);
+    }
+    100%{
+        background-image: url(./fotos/santamargarita.jpg);
+    }
+    
+
+    }
