@@ -12,6 +12,23 @@ font-family: 'Righteous', cursive;
     background-color: $color-principal;
     font-weight: bold;
     margin: 0px 0px 10px 0px;
+
+    #navbarnav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a{
+        color:$color-secundario
+    }
 }
 
 $warning:$color-secundario;
+h1{
+    color:$color-secundario ;
+}
+
+h2{
+    color:$color-principal;
+}
+
